@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation'
 
-import { createClient } from '@/lib/supabase/client'
+import { createClient } from '../client'
 import { Button } from '@/components/ui/button'
 
 export function LogoutButton() {
